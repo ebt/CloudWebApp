@@ -7,6 +7,14 @@
       <Setting name="SomeSetting" value="I am emulator" />
       <Setting name="Hello" value="WOrld local" />
       <Setting name="SettingInBoth" value="I am cscfg" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="remote" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEC4ZbIAgxCi5RZtfQRtuajgwDQYJKoZIhvcNAQEBBQAEggEArJ97X0A3hMVr56utQstKWSc4ouR/3XZ+UUqNJa1D3ZY1vn+XNvsJfDuQj2s120SBhiMLpVQvXtmMfphaji4Cg8mOaboD5cZc2riGKP1mknthM+QUHCqpxSmMN9h8VVleAwChNzIYEftTmkEdI7fJHUyQi/QW3ZFedEbBNyc5snPCIA5eG0/Wgv0ISU92cZ1yD5eG+gEb5Q8DfeGQD23KMOa7YmQ7eVOiedjGwwnjikzurh+O2230TTgdgD3zhVpleVGNtVd1tms3jc62MtW+Bed2+hE57WxFOZ4I+wny7Adc8ifO/eIsCLVjOZAx2k0o2hM5XWlUDPNRO+Ems+vtLTAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECN5UQFTcJLzpgBDYD3kYHdzIdqoML7SmonCC" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2015-03-15T23:59:59.0000000+01:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
     </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="0BD2132B443391ACE2D6D5F201C907285988CB4A" thumbprintAlgorithm="sha1" />
+    </Certificates>
   </Role>
 </ServiceConfiguration>
