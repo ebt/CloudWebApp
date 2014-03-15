@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="Azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2013-10.2.2">
+  <Role name="CloudWebApp">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="SomeSetting" value="I am emulator" />
+      <Setting name="Hello" value="WOrld local" />
+      <Setting name="SettingInBoth" value="I am cscfg" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
